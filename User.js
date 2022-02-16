@@ -3,11 +3,11 @@
 // @match 	*
 // @run-at	document-end
 // @grant	none
-// ==/UserScript
+// ==/UserScript==
 
 (function() {
 	'use strict';
-	var css = "#playerwrapper { margin: -1.25rem!important; }";
+	var css = "#playerwrapper { margin: 1rem -2rem 0rem -2rem !important; }";
 	var style = document.createElement("style");
 	style.type = "text/css";
 	style.appendChild(document.createTextNode(css));
