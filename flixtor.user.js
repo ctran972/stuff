@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name	Flixtor resize
-// @match 	https://flixtor.to/*
+// @match 	*
 // @grant	none
 // ==/UserScript==
 
