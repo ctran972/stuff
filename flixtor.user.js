@@ -1,7 +1,6 @@
 // ==UserScript==
-// @name	New Add-on
-// @match 	*
-// @run-at	document-end
+// @name	Flixtor resize
+// @match 	https://flixtor.to/*
 // @grant	none
 // ==/UserScript==
 
