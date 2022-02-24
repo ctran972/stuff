@@ -6,9 +6,10 @@
 
 (function() {
 	'use strict';
-	var css = "#player-container-id { height:-webkit-fill-available; padding-top:10rem; }\n";
-	   css += "#player { height:inherit; }\n";
-	   css += "video { width:668px; height:376px; left:0px; }\n";
+	var css = "#player-container-id { height:-webkit-fill-available!important; padding-top:10rem!important; }\n";
+	   css += "#player { height:inherit!important; }\n";
+	   css += "video { width:668px!important; height:376px!important; left:0px!important; }\n";
+           css += ".player-size { padding-bottom:56.25%!important }";
 	var style = document.createElement("style");
 	style.type = "text/css";
 	style.appendChild(document.createTextNode(css));
